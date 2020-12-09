@@ -33,7 +33,7 @@
 				<td><%= rs.getString(1) %></td>
 				<td><%= rs.getString(2) %></td>
 				<td><%= rs.getString(3) %></td>
-				<td><%= rs.getString(4) %></td>
+				<td><%= ((rs.getString(4)).replace("F","여")).replace("M","남") %></td>
 				<td><%= rs.getString(5) %></td>
 				<td><%= rs.getString(6) %></td>
 			</tr>
